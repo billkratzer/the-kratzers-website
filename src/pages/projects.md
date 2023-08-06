@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/page/Projects.astro
+title: Projects
 heroText1: Projects
 heroText2: Programming and Games.
 ---

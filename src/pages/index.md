@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/page/Home.astro
+title: Welcome!
 heroText1: Bill Kratzer
 heroText2: Lego Geek.  Coffee Lover.  Computer Nerd.  Penn State Fan.
 ---

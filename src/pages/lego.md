@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/page/Lego.astro
+title: Lego
 heroText1: Lego
 heroText2: Bricks. Studs. Awesomeness.
 ---

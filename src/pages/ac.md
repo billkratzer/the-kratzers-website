@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/page/AnimalCrossing.astro
+title: Animal Crossing
 heroText1: Animal Crossing
 heroText2: Serving Tom Nook Since March 2020.
 ---

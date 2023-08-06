@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/page/Art.astro
+title: AI Art
 heroText1: AI Art
 heroText2: Computer - Draw me something!
 ---

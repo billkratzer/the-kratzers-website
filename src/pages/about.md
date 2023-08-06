@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/page/About.astro
+title: About Bill
 heroText1: About Bill
 heroText2: Slinging Code Since 1982.
 ---

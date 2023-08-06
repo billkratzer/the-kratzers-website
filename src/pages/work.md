@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/page/Work.astro
+title: Work
 heroText1: Work
 heroText2: Wrangling bits of technology and mountains of opportunity.
 ---
