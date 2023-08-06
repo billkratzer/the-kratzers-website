@@ -6,7 +6,7 @@ const { frontmatter } = Astro.props;
 ---
 
 <html lang="en">
-	<BaseHead title="{title}"/>
+	<BaseHead title={frontmatter.title}/>
 
 	<body class="bg-gray-900">
 		<div id="hero" class="px-6 lg:px-8 bg-gradient-to-tr from-pink-900 via-pink-700 to-pink-800">

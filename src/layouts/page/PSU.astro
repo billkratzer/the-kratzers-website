@@ -5,7 +5,7 @@ import NavBar from "../../components/NavBar.astro";
 const { frontmatter } = Astro.props;
 ---
 <html lang="en">
-	<BaseHead title="{title}"/>
+	<BaseHead title={frontmatter.title}/>
 
 	<body class="bg-gray-900">
 		<div id="hero" class="px-6 lg:px-8 bg-gradient-to-tr from-pink-500 to-purple-500" style="background-image: url('/images/psu/banner.png'); background-size: cover">
