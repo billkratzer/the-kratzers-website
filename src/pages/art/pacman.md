@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/page/PacMan.astro
+title: PAC-MAN AI Art
 heroText1: PAC-MAN
 heroText2: I've Got Pac-Man Fever, and it's drivin' me crazy.
 ---

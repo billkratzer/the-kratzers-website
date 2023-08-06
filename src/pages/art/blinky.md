@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/page/Blinky.astro
+title: An Ode to Blinky
 heroText1: Blinky
 heroText2: Lego Artwork Meets AI Style Transfer
 ---

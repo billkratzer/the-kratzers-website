@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/page/PSU.astro
+title: Nittany Lion AI Art
 heroText1: PENN STATE
 heroText2: We ARE...
 ---
