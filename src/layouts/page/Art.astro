@@ -1,0 +1,28 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import NavBar from "../../components/NavBar.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<html lang="en">
+	<BaseHead title="{title}"/>
+
+	<body class="bg-gray-900">
+		<div id="hero" class="px-6 lg:px-8 bg-gradient-to-tr from-pink-500 to-purple-500">
+			<NavBar/>
+			<div class="py-18 sm:py-24 mx-auto max-w-2xl text-center">
+				<h1 class="text-3xl font-bold tracking-tight text-white sm:text-9xl">{frontmatter.heroText1}</h1>
+				<h2 class="mt-6 text-lg leading-8 text-white italic">{frontmatter.heroText2}</h2>
+			</div>
+		</div>
+		<div class="bg-gradient-to-b from-emerald-50 to-white border-top border-t-8">
+			<div class="mx-auto max-w-2xl text-left min-h-screen">
+				<article class="py-4 prose max-w-none prose-stone prose-sm prose-h1:pt-4 prose-h1:pb-0 prose-h1:mb-0 prose-h1:text-xl prose-h2:mb-0 prose-h2:text-lg prose-h3:text-sm prose-p:my-2">
+					<slot/>
+				</article>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,308 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import NavBar from "../../components/NavBar.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<style>
+	#hero {
+		background-image: url('/images/lego/lego_rainbow_75_opacity.jpg');
+	}
+</style>
+<html lang="en">
+	<BaseHead title="{title}"/>
+
+	<body class="bg-gray-900">
+		<div id="hero" class="px-6 lg:px-8">
+			<NavBar/>
+			<div class="py-18 sm:py-24 mx-auto max-w-2xl text-center">
+				<h1 class="text-3xl font-bold tracking-tight text-white sm:text-9xl">{frontmatter.heroText1}</h1>
+				<h2 class="mt-6 text-lg leading-8 text-white">{frontmatter.heroText2}</h2>
+			</div>
+		</div>
+		<div class="bg-gradient-to-b from-yellow-50 to-white border-top border-t-8">
+			<div class="mx-auto max-w-2xl text-left min-h-screen">
+				<article class="py-4 prose max-w-none prose-stone prose-sm prose-h1:pt-4 prose-h1:mb-0 prose-p:mt-0 prose-h1:text-xl prose-h2:mb-0 prose-h2:text-lg prose-h3:text-sm">
+					<slot/>
+				</article>
+			</div>
+		</div>
+	</body>
+
+	<script is:inline>
+		function show_pac_man_gallery() {
+			$.fancybox.open([
+				{
+					src  : '/images/lego/pacman/blinky.png',
+					opts : {
+						caption : 'Blinky',
+						thumb   : '/images/lego/pacman/blinky_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/pinky.png',
+					opts : {
+						caption : 'Pinky',
+						thumb   : '/images/lego/pacman/pinky_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/inky.png',
+					opts : {
+						caption : 'Inky',
+						thumb   : '/images/lego/pacman/inky_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/clyde.png',
+					opts : {
+						caption : 'Clyde',
+						thumb   : '/images/lego/pacman/clyde_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/scared.png',
+					opts : {
+						caption : 'Scared Ghost',
+						thumb   : '/images/lego/pacman/scared_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/pac_man.png',
+					opts : {
+						caption : 'Pac-Man',
+						thumb   : '/images/lego/pacman/pac_man_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/cherry.png',
+					opts : {
+						caption : 'Pac-Man',
+						thumb   : '/images/lego/pacman/cherry_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/cherry.png',
+					opts : {
+						caption : 'Pac-Man',
+						thumb   : '/images/lego/pacman/cherry_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/strawberry.png',
+					opts : {
+						caption : 'Pac-Man',
+						thumb   : '/images/lego/pacman/strawberry_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/orange.png',
+					opts : {
+						caption : 'Pac-Man',
+						thumb   : '/images/lego/pacman/orange_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/apple.png',
+					opts : {
+						caption : 'Pac-Man',
+						thumb   : '/images/lego/pacman/apple_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/pacman/galaxian.png',
+					opts : {
+						caption : 'Pac-Man',
+						thumb   : '/images/lego/pacman/galaxian_thumb.png'
+					}
+				}
+			], {
+				loop : false
+			});
+		}
+
+		function show_galaga_gallery() {
+			$.fancybox.open([
+				{
+					src  : '/images/lego/galaga/player_ship.png',
+					opts : {
+						caption : 'Player Spaceship',
+						thumb   : '/images/lego/galaga/player_ship_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/galaga/alien1.png',
+					opts : {
+						caption : 'Alien Ship',
+						thumb   : '/images/lego/galaga/alien1_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/galaga/alien2.png',
+					opts : {
+						caption : 'Alien Ship',
+						thumb   : '/images/lego/galaga/alien2_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/galaga/alien3.png',
+					opts : {
+						caption : 'Alien Ship',
+						thumb   : '/images/lego/galaga/alien3_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/galaga/alien4.png',
+					opts : {
+						caption : 'Alien Ship',
+						thumb   : '/images/lego/galaga/alien4_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/galaga/alien5.png',
+					opts : {
+						caption : 'Alien Ship',
+						thumb   : '/images/lego/galaga/alien5_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/galaga/alien6.png',
+					opts : {
+						caption : 'Alien Ship',
+						thumb   : '/images/lego/galaga/alien6_thumb.png'
+					}
+				}
+			], {
+				loop : false
+			});
+		}
+
+		function show_donkey_kong_jr_gallery() {
+			$.fancybox.open([
+				{
+					src  : '/images/lego/donkey_kong_jr/donkey_kong.png',
+					opts : {
+						caption : 'Donkey Kong',
+						thumb   : '/images/lego/donkey_kong_jr/donkey_kong_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/donkey_kong_jr/donkey_kong_jr.png',
+					opts : {
+						caption : 'Donkey Kong Jr.',
+						thumb   : '/images/lego/donkey_kong_jr/donkey_kong_jr_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/donkey_kong_jr/mario.png',
+					opts : {
+						caption : 'Mario',
+						thumb   : '/images/lego/donkey_kong_jr/mario_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/donkey_kong_jr/red_trap.png',
+					opts : {
+						caption : 'Red Trap guy',
+						thumb   : '/images/lego/donkey_kong_jr/red_trap_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/donkey_kong_jr/blue_trap.png',
+					opts : {
+						caption : 'Blue Trap Guy',
+						thumb   : '/images/lego/donkey_kong_jr/blue_trap_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/donkey_kong_jr/purple_bird.png',
+					opts : {
+						caption : 'Birdie',
+						thumb   : '/images/lego/donkey_kong_jr/purple_bird_thumb.png'
+					}
+				}
+			], {
+				loop : false
+			});
+		}
+
+		function show_robotron_gallery() {
+			$.fancybox.open([
+				{
+					src  : '/images/lego/robotron/player.png',
+					opts : {
+						caption : 'Player',
+						thumb   : '/images/lego/robotron/player_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/robotron/basic_enemy.png',
+					opts : {
+						caption : 'Basic Enemy Robot',
+						thumb   : '/images/lego/robotron/basic_enemy_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/robotron/brain.png',
+					opts : {
+						caption : 'Brain',
+						thumb   : '/images/lego/robotron/brain_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/robotron/tank.png',
+					opts : {
+						caption : 'Tank',
+						thumb   : '/images/lego/robotron/tank_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/robotron/family1.png',
+					opts : {
+						caption : 'Family 1',
+						thumb   : '/images/lego/robotron/family1_thumb.png'
+					}
+				},
+				{
+					src  : '/images/lego/robotron/family2.png',
+					opts : {
+						caption : 'Family 2',
+						thumb   : '/images/lego/robotron/family2_thumb.png'
+					}
+				}
+			], {
+				loop : false
+			});
+		}
+
+		function show_qbert_gallery() {
+			$.fancybox.open([
+				{
+					src  : '/images/lego/qbert/qbert.png',
+					opts : {
+						caption : 'Q*bert',
+						thumb   : '/images/lego/qbert/qbert_thumb.png'
+					}
+				}
+			], {
+				loop : false
+			});
+		}
+
+		function show_lego_home_gallery() {
+			$.fancybox.open([
+				{
+					src  : '/images/lego/home/home.png',
+					opts : {
+						caption : 'Lego Town House',
+						thumb   : '/images/lego/home/home_thumb.png'
+					}
+				}
+			], {
+				loop : false
+			});
+		}
+
+	</script>
+</html>
