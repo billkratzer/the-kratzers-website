@@ -2,7 +2,7 @@
 layout: ../layouts/page/Art.astro
 title: AI Art
 heroText1: AI Art
-heroText2: Computer - Draw me something!
+heroText2: Computer - Draw Me Something!
 ---
 
 Every decade, a computer technology takes the world by storm. The microprocessor, the Internet, social networking, and mobile apps have all dramatically changed the ways we live, work, and communicate.

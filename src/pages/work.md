@@ -2,7 +2,7 @@
 layout: ../layouts/page/Work.astro
 title: Work
 heroText1: Work
-heroText2: Wrangling bits of technology and mountains of opportunity.
+heroText2: Wrangling Bits of Technology and Mountains of Opportunity.
 ---
 
 # Currently

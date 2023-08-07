@@ -2,7 +2,7 @@
 layout: ../layouts/page/Lego.astro
 title: Lego
 heroText1: Lego
-heroText2: Bricks. Studs. Awesomeness.
+heroText2: Bricks, Studs, and Awesomeness.
 ---
 
 I love Lego. While many of my hobbies are virtual in nature, Lego is my one big hobby that lets me work and play in the physical world.
